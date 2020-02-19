@@ -3,6 +3,7 @@ FROM golang:latest
 # Install auxiliary package
 RUN apt update
 RUN apt -y install \
+        gdb \
         xz-utils \
         m4 \
         libssl-dev \
@@ -44,4 +45,5 @@ RUN CC=afl-gcc CXX=afl-g++ ./configure --prefix=`pwd`/build
 RUN make -j; make
 RUN make install
 
+RUN ulimit -c unlimited
 WORKDIR /Ankou
