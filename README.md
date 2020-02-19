@@ -144,9 +144,10 @@ python -c "last = open('receiver.csv').readlines()[-1].split(','); print('{}%'.f
 
 Once the environment is setup, the scripts works in two steps:
 1. Run the binary on the crashing input to produce a `core` file.
+Using `ulimit -c unlimited` ensures the core to be dumped.
 2. Use the scripts in the `triage` folder of this repository:
 ```bash
-cd $GOPATH/github.com/SoftSec-KAIST/Ankou/triage
+cd $GOPATH/src/github.com/SoftSec-KAIST/Ankou/triage
 gdb -x triage.py -x triage.gdb -batch -c /path/to/core /path/to/binary
 cat hash.txt # The stack hashes are found in this text file.
 ```
