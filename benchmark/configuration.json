@@ -1,0 +1,1090 @@
+{
+    "puts": [
+        {
+            "bin_path": "/compiling/libtiff/fax2ps/fax2ps",
+            "seed_dir": "/compiling/libtiff/fax2ps/seeds",
+            "cov_path": "",
+            "args": [],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/pal2rgb/pal2rgb",
+            "seed_dir": "/compiling/libtiff/pal2rgb/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/ppm2tiff/ppm2tiff",
+            "seed_dir": "/compiling/libtiff/ppm2tiff/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/raw2tiff/raw2tiff",
+            "seed_dir": "/compiling/libtiff/raw2tiff/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/tiff2bw/tiff2bw",
+            "seed_dir": "/compiling/libtiff/tiff2bw/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/tiff2pdf/tiff2pdf",
+            "seed_dir": "/compiling/libtiff/tiff2pdf/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/tiff2ps/tiff2ps",
+            "seed_dir": "/compiling/libtiff/tiff2ps/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/tiff2rgba/tiff2rgba",
+            "seed_dir": "/compiling/libtiff/tiff2rgba/seeds",
+            "cov_path": "",
+            "args": ["-c", "zip", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/tiffcmp/tiffcmp",
+            "seed_dir": "/compiling/libtiff/tiffcmp/seeds",
+            "cov_path": "",
+            "args": ["/compiling/libtiff/tiffcmp/palette-1c-1b.tiff", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/tiffcrop/tiffcrop",
+            "seed_dir": "/compiling/libtiff/tiffcrop/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/tiffdither/tiffdither",
+            "seed_dir": "/compiling/libtiff/tiffdither/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/tiffdump/tiffdump",
+            "seed_dir": "/compiling/libtiff/tiffdump/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/tiffinfo/tiffinfo",
+            "seed_dir": "/compiling/libtiff/tiffinfo/seeds",
+            "cov_path": "",
+            "args": ["-D","-i", "-c", "-d", "-r", "-s", "-w", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/tiffmedian/tiffmedian",
+            "seed_dir": "/compiling/libtiff/tiffmedian/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtiff/tiffset/tiffset",
+            "seed_dir": "/compiling/libtiff/tiffset/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libasn1/asn1Coding/asn1Coding",
+            "seed_dir": "/compiling/libasn1/asn1Coding/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libasn1/asn1Parser/asn1Parser",
+            "seed_dir": "/compiling/libasn1/asn1Parser/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libming/listaction/listaction",
+            "seed_dir": "/compiling/libming/listaction/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libming/listaction_d/listaction_d",
+            "seed_dir": "/compiling/libming/listaction_d/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libming/listfdb/listfdb",
+            "seed_dir": "/compiling/libming/listfdb/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libming/listjpeg/listjpeg",
+            "seed_dir": "/compiling/libming/listjpeg/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libming/listmp3/listmp3",
+            "seed_dir": "/compiling/libming/listmp3/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libming/raw2adpcm/raw2adpcm",
+            "seed_dir": "/compiling/libming/raw2adpcm/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libncurses/toe/toe",
+            "seed_dir": "/compiling/libncurses/toe/seeds",
+            "cov_path": "",
+            "args": ["-u", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libncurses/toe/toe",
+            "seed_dir": "/compiling/libncurses/toe/seeds",
+            "cov_path": "",
+            "args": ["-U", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/addmoddel/addmoddel",
+            "seed_dir": "/compiling/libexiv2/addmoddel/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/convert-test/convert-test",
+            "seed_dir": "/compiling/libexiv2/convert-test/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/easyaccess-test/easyaccess-test",
+            "seed_dir": "/compiling/libexiv2/easyaccess-test/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exifcomment/exifcomment",
+            "seed_dir": "/compiling/libexiv2/exifcomment/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exifdata/exifdata",
+            "seed_dir": "/compiling/libexiv2/exifdata/seeds",
+            "cov_path": "",
+            "args": ["@@", "xml"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exifdata-test/exifdata-test",
+            "seed_dir": "/compiling/libexiv2/exifdata-test/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exifprint/exifprint",
+            "seed_dir": "/compiling/libexiv2/exifprint/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exifvalue/exifvalue",
+            "seed_dir": "/compiling/libexiv2/exifvalue/seeds",
+            "cov_path": "",
+            "args": ["@@", "Exif.Image.NewSubfileType"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exiv2/exiv2",
+            "seed_dir": "/compiling/libexiv2/exiv2/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exiv2/exiv2",
+            "seed_dir": "/compiling/libexiv2/exiv2/seeds",
+            "cov_path": "",
+            "args": ["-pt", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exiv2/exiv2",
+            "seed_dir": "/compiling/libexiv2/exiv2/seeds",
+            "cov_path": "",
+            "args": ["Y", "1", "ad", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exiv2/exiv2",
+            "seed_dir": "/compiling/libexiv2/exiv2/seeds",
+            "cov_path": "",
+            "args": ["rm", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exiv2/exiv2",
+            "seed_dir": "/compiling/libexiv2/exiv2/seeds",
+            "cov_path": "",
+            "args": ["-c", "add Iptc.Application2.Credit String \"mee too! (1)\"", "mo", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exiv2/exiv2",
+            "seed_dir": "/compiling/libexiv2/exiv2/seeds",
+            "cov_path": "",
+            "args": ["-m", "/compiling/libexiv2/exiv2/cmd_tags.txt", "mo", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exiv2json/exiv2json",
+            "seed_dir": "/compiling/libexiv2/exiv2json/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/geotag/geotag",
+            "seed_dir": "/compiling/libexiv2/geotag/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/iptceasy/iptceasy",
+            "seed_dir": "/compiling/libexiv2/iptceasy/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/iptcprint/iptcprint",
+            "seed_dir": "/compiling/libexiv2/iptcprint/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/mrwthumb/mrwthumb",
+            "seed_dir": "/compiling/libexiv2/mrwthumb/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/path-test/path-test",
+            "seed_dir": "/compiling/libexiv2/path-test/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/prevtest/prevtest",
+            "seed_dir": "/compiling/libexiv2/prevtest/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/tiff-test/tiff-test",
+            "seed_dir": "/compiling/libexiv2/tiff-test/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/write-test/write-test",
+            "seed_dir": "/compiling/libexiv2/write-test/seeds",
+            "cov_path": "",
+            "args": ["@@", "1"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/write-test/write-test",
+            "seed_dir": "/compiling/libexiv2/write-test/seeds",
+            "cov_path": "",
+            "args": ["@@", "11"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/write2-test/write2-test",
+            "seed_dir": "/compiling/libexiv2/write2-test/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/xmpdump/xmpdump",
+            "seed_dir": "/compiling/libexiv2/xmpdump/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/xmpparse/xmpparse",
+            "seed_dir": "/compiling/libexiv2/xmpparse/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/xmpparser-test/xmpparser-test",
+            "seed_dir": "/compiling/libexiv2/xmpparser-test/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/xmpprint/xmpprint",
+            "seed_dir": "/compiling/libexiv2/xmpprint/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libsass/sassc",
+            "seed_dir": "/compiling/libsass/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libsass/sassc",
+            "seed_dir": "/compiling/libsass/seeds",
+            "cov_path": "",
+            "args": ["-t", "nested", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libsass/sassc",
+            "seed_dir": "/compiling/libsass/seeds",
+            "cov_path": "",
+            "args": ["-t", "expanded", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libsass/sassc",
+            "seed_dir": "/compiling/libsass/seeds",
+            "cov_path": "",
+            "args": ["-t", "compact", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libsass/sassc",
+            "seed_dir": "/compiling/libsass/seeds",
+            "cov_path": "",
+            "args": ["-t", "compressed", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/pspp/pspp-convert/pspp-convert",
+            "seed_dir": "/compiling/pspp/pspp-convert/seeds",
+            "cov_path": "",
+            "args": ["-O", "por", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/pspp/pspp-convert/pspp-convert",
+            "seed_dir": "/compiling/pspp/pspp-convert/seeds",
+            "cov_path": "",
+            "args": ["-O", "sys", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/pspp/pspp-convert/pspp-convert",
+            "seed_dir": "/compiling/pspp/pspp-convert/seeds",
+            "cov_path": "",
+            "args": ["-O", "csv", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/pspp/pspp/pspp",
+            "seed_dir": "/compiling/pspp/pspp/seeds",
+            "cov_path": "",
+            "args": ["-o", "/dev/null", "-O", "format=csv",  "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/pspp/pspp/pspp",
+            "seed_dir": "/compiling/pspp/pspp/seeds",
+            "cov_path": "",
+            "args": ["-o", "/dev/null", "-O", "format=html",  "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/pspp/pspp/pspp",
+            "seed_dir": "/compiling/pspp/pspp/seeds",
+            "cov_path": "",
+            "args": ["-o", "/dev/null", "-O", "format=odt",  "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/pspp/pspp/pspp",
+            "seed_dir": "/compiling/pspp/pspp/seeds",
+            "cov_path": "",
+            "args": ["-o", "/dev/null", "-O", "format=txt",  "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/pspp/pspp/pspp",
+            "seed_dir": "/compiling/pspp/pspp/seeds",
+            "cov_path": "",
+            "args": ["-o", "/dev/null", "-O", "format=txt",  "-i", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/pspp/pspp/pspp",
+            "seed_dir": "/compiling/pspp/pspp/seeds",
+            "cov_path": "",
+            "args": ["-o", "/dev/null", "-O", "format=txt",  "-b", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/pspp/pspp/pspp",
+            "seed_dir": "/compiling/pspp/pspp/seeds",
+            "cov_path": "",
+            "args": ["-o", "/dev/null", "-O", "format=txt",  "-s", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/pspp/pspp-dump-sav/pspp-dump-sav",
+            "seed_dir": "/compiling/pspp/pspp-dump-sav/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/bison/bison",
+            "seed_dir": "/compiling/bison/seeds",
+            "cov_path": "",
+            "args": ["--defines=/dev/null", "--xml=/dev/null", "--graph=/dev/null",
+                "-o", "/dev/null", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/bison/bison",
+            "seed_dir": "/compiling/bison/seeds",
+            "cov_path": "",
+            "args": ["--defines=/dev/null", "--xml=/dev/null", "--graph=/dev/null",
+                "--report=all", "--report-file=/dev/null",
+                "-o", "/dev/null", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/bison/bison",
+            "seed_dir": "/compiling/bison/seeds",
+            "cov_path": "",
+            "args": ["--defines=/dev/null", "--xml=/dev/null", "--graph=/dev/null",
+                "-y", "-o", "/dev/null", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/cflow/cflow",
+            "seed_dir": "/compiling/cflow/seeds",
+            "cov_path": "",
+            "args": ["-o", "/dev/null", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/cflow/cflow",
+            "seed_dir": "/compiling/cflow/seeds",
+            "cov_path": "",
+            "args": ["--format=posix", "-o", "/dev/null", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libav/avconv/avconv",
+            "seed_dir": "/compiling/libav/avconv/seeds",
+            "cov_path": "",
+            "args": ["-i", "@@", "-b", "64k", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libav/avconv/avconv",
+            "seed_dir": "/compiling/libav/avconv/seeds",
+            "cov_path": "",
+            "args": ["-i", "@@", "-r", "24", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libav/avconv/avconv",
+            "seed_dir": "/compiling/libav/avconv/seeds",
+            "cov_path": "",
+            "args": ["-r", "1", "-i", "@@", "-r", "24", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libav/avprobe/avprobe",
+            "seed_dir": "/compiling/libav/avprobe/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/tcpdump/tcpdump",
+            "seed_dir": "/compiling/tcpdump/seeds",
+            "cov_path": "",
+            "args": ["-r", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/clamav/clambc/clambc",
+            "seed_dir": "/compiling/clamav/clambc/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/clamav/clambc/clambc",
+            "seed_dir": "/compiling/clamav/clambc/seeds",
+            "cov_path": "",
+            "args": ["--printsrc", "--printbcir", "--statistics=bytecode", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/dwarf/dwarfdump",
+            "seed_dir": "/compiling/dwarf/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/dwarf/dwarfdump",
+            "seed_dir": "/compiling/dwarf/seeds",
+            "cov_path": "",
+            "args": ["-b", "-a", "-r", "-f", "-i", "-ls", "-c", "-ta", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtorrent/dump_torrent/dump_torrent",
+            "seed_dir": "/compiling/libtorrent/dump_torrent/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/nasm/nasm/nasm",
+            "seed_dir": "/compiling/nasm/nasm/seeds",
+            "cov_path": "",
+            "args": ["@@", "-o", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/nasm/nasm/nasm",
+            "seed_dir": "/compiling/nasm/nasm/seeds",
+            "cov_path": "",
+            "args": ["@@", "-o", "/dev/null", "-e"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/nasm/ndisasm/ndisasm",
+            "seed_dir": "/compiling/nasm/ndisasm/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/nasm/ndisasm/ndisasm",
+            "seed_dir": "/compiling/nasm/ndisasm/seeds",
+            "cov_path": "",
+            "args": ["-a", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/vim/vim",
+            "seed_dir": "/compiling/vim/seeds",
+            "cov_path": "",
+            "args": ["-u", "NONE", "-X", "-Z", "-e", "-s",
+                "-S", "@@", "-c", "':qa!'"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/vim/vim",
+            "seed_dir": "/compiling/vim/seeds",
+            "cov_path": "",
+            "args": ["-u", "NONE", "-X", "-Z", "-e", "-s",
+                "-c", "'call search(getline(\".\"))'", "-c", "':qa!'", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/catdoc/catdoc/catdoc",
+            "seed_dir": "/compiling/catdoc/catdoc/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/catdoc/catppt/catppt",
+            "seed_dir": "/compiling/catdoc/catppt/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/catdoc/xls2csv/xls2csv",
+            "seed_dir": "/compiling/catdoc/xls2csv/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libgxps/xpstojpeg/xpstojpeg",
+            "seed_dir": "/compiling/libgxps/xpstojpeg/seeds",
+            "cov_path": "",
+            "args": ["@@", "-l", "99", "/compiling/libgxps/xpstojpeg/fake_outs/target"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libgxps/xpstopdf/xpstopdf",
+            "seed_dir": "/compiling/libgxps/xpstopdf/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libgxps/xpstopng/xpstopng",
+            "seed_dir": "/compiling/libgxps/xpstopng/seeds",
+            "cov_path": "",
+            "args": ["@@", "-l", "99", "/compiling/libgxps/xpstopng/fake_outs/target"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libgxps/xpstops/xpstops",
+            "seed_dir": "/compiling/libgxps/xpstops/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libgxps/xpstosvg/xpstosvg",
+            "seed_dir": "/compiling/libgxps/xpstosvg/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/mpg123/mpg123/mpg123",
+            "seed_dir": "/compiling/mpg123/mpg123/seeds",
+            "cov_path": "",
+            "args": ["-w", "/dev/null", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/mpg123/mpg123/mpg123",
+            "seed_dir": "/compiling/mpg123/mpg123/seeds",
+            "cov_path": "",
+            "args": ["-t", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/mpg123/mpg123-id3dump/mpg123-id3dump",
+            "seed_dir": "/compiling/mpg123/mpg123-id3dump/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/mpg123/mpg123-strip/mpg123-strip",
+            "seed_dir": "/compiling/mpg123/mpg123-strip/seeds",
+            "cov_path": "",
+            "args": [],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libraw/4channels/4channels",
+            "seed_dir": "/compiling/libraw/4channels/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libraw/dcraw_emu/dcraw_emu",
+            "seed_dir": "/compiling/libraw/dcraw_emu/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libraw/dcraw_half/dcraw_half",
+            "seed_dir": "/compiling/libraw/dcraw_half/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libraw/half_mt/half_mt",
+            "seed_dir": "/compiling/libraw/half_mt/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libraw/mem_image/mem_image",
+            "seed_dir": "/compiling/libraw/mem_image/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libraw/multirender_test/multirender_test",
+            "seed_dir": "/compiling/libraw/multirender_test/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libraw/postprocessing_benchmark/postprocessing_benchmark",
+            "seed_dir": "/compiling/libraw/postprocessing_benchmark/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libraw/raw-identify/raw-identify",
+            "seed_dir": "/compiling/libraw/raw-identify/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libraw/simple_dcraw/simple_dcraw",
+            "seed_dir": "/compiling/libraw/simple_dcraw/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libraw/unprocessed_raw/unprocessed_raw",
+            "seed_dir": "/compiling/libraw/unprocessed_raw/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/liblouis/lou_checktable/lou_checktable",
+            "seed_dir": "/compiling/liblouis/lou_checktable/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/liblouis/lou_compare/lou_compare",
+            "seed_dir": "/compiling/liblouis/lou_compare/seeds",
+            "cov_path": "",
+            "args": [],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/liblouis/lou_debug/lou_debug",
+            "seed_dir": "/compiling/liblouis/lou_debug/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/liblouis/lou_trace/lou_trace",
+            "seed_dir": "/compiling/liblouis/lou_trace/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["compare", "-metric", "mse", "/compiling/graphics_magic/seeds/Add.miff", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["compare", "-highlight-style", "assign",
+                "-highlight-color", "purple", "-file",
+                "/compiling/graphics_magic/seeds/Add.miff", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["compare", "-metric", "mse",
+                "/compiling/graphics_magic/seeds/input_palette_256_planar_contig.tiff", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["compare", "-highlight-style", "assign",
+                "-highlight-color", "purple", "-file",
+                "/compiling/graphics_magic/seeds/input_palette_256_planar_contig.tiff", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["compare", "-metric", "mse",
+                "/compiling/graphics_magic/seeds/seeds/sunrise.jpg", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["compare", "-highlight-style", "assign",
+                "-highlight-color", "purple", "-file",
+                "/compiling/graphics_magic/seeds/seeds/sunrise.jpg", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["composite", "/compiling/graphics_magicseeds/seeds/sunrise.jpg",
+                "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["composite", "-compose", "difference",
+                "/compiling/graphics_magic/seeds/sunrise.jpg",
+                "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["composite", "/compiling/graphics_magic/seeds/Wave.miff",
+                "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["composite", "-compose", "difference",
+                "/compiling/graphics_magicseeds/seeds/Wave.miff",
+                "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["convert", "@@", "sun:/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["convert", "-monochrome", "@@", "fax:/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["identify", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/jasper/imgcmp/imgcmp",
+            "seed_dir": "/compiling/jasper/imgcmp/seeds",
+            "cov_path": "",
+            "args": ["-m", "rmse", "-f", "/compiling/jasper/imgcmp/seeds/120-other.mif", "-F", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/jasper/imginfo/imginfo",
+            "seed_dir": "/compiling/jasper/imginfo/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/jasper/jasper/jasper",
+            "seed_dir": "/compiling/jasper/jasper/seeds",
+            "cov_path": "",
+            "args": ["-f", "@@", "-o", "/dev/null", "-T", "jpg"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/jasper/jasper/jasper",
+            "seed_dir": "/compiling/jasper/jasper/seeds",
+            "cov_path": "",
+            "args": ["-f", "@@", "-o", "/dev/null", "-T", "mif"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/jasper/jasper/jasper",
+            "seed_dir": "/compiling/jasper/jasper/seeds",
+            "cov_path": "",
+            "args": ["-f", "@@", "-o", "/dev/null", "-T", "ras"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/ar/ar",
+            "seed_dir": "/compiling/binutils/ar/seeds",
+            "cov_path": "",
+            "args": ["p", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/cxxfilt/cxxfilt",
+            "seed_dir": "/compiling/binutils/cxxfilt/seeds",
+            "cov_path": "",
+            "args": ["@@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/elfedit/elfedit",
+            "seed_dir": "/compiling/binutils/elfedit/seeds",
+            "cov_path": "",
+            "args": ["--enable-x86-feature=ibt", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/elfedit/elfedit",
+            "seed_dir": "/compiling/binutils/elfedit/seeds",
+            "cov_path": "",
+            "args": ["--enable-x86-feature=shstk", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/nm/nm",
+            "seed_dir": "/compiling/binutils/nm/seeds",
+            "cov_path": "",
+            "args": ["-C", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/objcopy/objcopy",
+            "seed_dir": "/compiling/binutils/objcopy/seeds",
+            "cov_path": "",
+            "args": ["-x", "-S", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/objdump/objdump",
+            "seed_dir": "/compiling/binutils/objdump/seeds",
+            "cov_path": "",
+            "args": ["-D", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/objdump/objdump",
+            "seed_dir": "/compiling/binutils/objdump/seeds",
+            "cov_path": "",
+            "args": ["-x", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/objdump/objdump",
+            "seed_dir": "/compiling/binutils/objdump/seeds",
+            "cov_path": "",
+            "args": ["-S", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/ranlib/ranlib",
+            "seed_dir": "/compiling/binutils/ranlib/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/readelf/readelf",
+            "seed_dir": "/compiling/binutils/readelf/seeds",
+            "cov_path": "",
+            "args": ["-a", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/readelf/readelf",
+            "seed_dir": "/compiling/binutils/readelf/seeds",
+            "cov_path": "",
+            "args": ["-e", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/size/size",
+            "seed_dir": "/compiling/binutils/size/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/strings/strings",
+            "seed_dir": "/compiling/binutils/strings/seeds",
+            "cov_path": "",
+            "args": ["-a", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/strip/strip",
+            "seed_dir": "/compiling/binutils/strip/seeds",
+            "cov_path": "",
+            "args": ["-s", "-x", "@@", "-o", "/dev/null"],
+            "to_use": true
+        }
+    ],
+
+    "fuzzers": {
+        "Ankou":  {
+            "path":     "/path/to/Ankou",
+            "to_use":   true
+        },
+        "AFL": {
+            "path":     "/path/to/afl-fuzz",
+            "to_use":   true
+        }
+    },
+
+    "exp_dir":  "/fuzzing_exps",
+    "fuzz_n":   3,
+    "max_cores":    44
+
+}

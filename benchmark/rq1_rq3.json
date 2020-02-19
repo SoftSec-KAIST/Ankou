@@ -1,0 +1,191 @@
+{
+    "puts": [
+        {
+            "bin_path": "/compiling/libtiff/tiffinfo/tiffinfo",
+            "seed_dir": "/compiling/libtiff/tiffinfo/seeds",
+            "cov_path": "",
+            "args": ["-D","-i", "-c", "-d", "-r", "-s", "-w", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libasn1/asn1Coding/asn1Coding",
+            "seed_dir": "/compiling/libasn1/asn1Coding/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libming/listaction_d/listaction_d",
+            "seed_dir": "/compiling/libming/listaction_d/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libncurses/toe/toe",
+            "seed_dir": "/compiling/libncurses/toe/seeds",
+            "cov_path": "",
+            "args": ["-u", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libexiv2/exifvalue/exifvalue",
+            "seed_dir": "/compiling/libexiv2/exifvalue/seeds",
+            "cov_path": "",
+            "args": ["@@", "Exif.Image.NewSubfileType"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libsass/sassc",
+            "seed_dir": "/compiling/libsass/seeds",
+            "cov_path": "",
+            "args": ["-t", "compressed", "@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/pspp/pspp/pspp",
+            "seed_dir": "/compiling/pspp/pspp/seeds",
+            "cov_path": "",
+            "args": ["-o", "/dev/null", "-O", "format=odt",  "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/bison/bison",
+            "seed_dir": "/compiling/bison/seeds",
+            "cov_path": "",
+            "args": ["--defines=/dev/null", "--xml=/dev/null", "--graph=/dev/null",
+                "--report=all", "--report-file=/dev/null",
+                "-o", "/dev/null", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/cflow/cflow",
+            "seed_dir": "/compiling/cflow/seeds",
+            "cov_path": "",
+            "args": ["--format=posix", "-o", "/dev/null", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libav/avprobe/avprobe",
+            "seed_dir": "/compiling/libav/avprobe/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/tcpdump/tcpdump",
+            "seed_dir": "/compiling/tcpdump/seeds",
+            "cov_path": "",
+            "args": ["-r", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/clamav/clambc/clambc",
+            "seed_dir": "/compiling/clamav/clambc/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/dwarf/dwarfdump",
+            "seed_dir": "/compiling/dwarf/seeds",
+            "cov_path": "",
+            "args": ["-b", "-a", "-r", "-f", "-i", "-ls", "-c", "-ta", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libtorrent/dump_torrent/dump_torrent",
+            "seed_dir": "/compiling/libtorrent/dump_torrent/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/nasm/nasm/nasm",
+            "seed_dir": "/compiling/nasm/nasm/seeds",
+            "cov_path": "",
+            "args": ["@@", "-o", "/dev/null", "-e"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/vim/vim",
+            "seed_dir": "/compiling/vim/seeds",
+            "cov_path": "",
+            "args": ["-u", "NONE", "-X", "-Z", "-e", "-s",
+                "-S", "@@", "-c", "':qa!'"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/catdoc/catdoc/catdoc",
+            "seed_dir": "/compiling/catdoc/catdoc/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libgxps/xpstopdf/xpstopdf",
+            "seed_dir": "/compiling/libgxps/xpstopdf/seeds",
+            "cov_path": "",
+            "args": ["@@", "/dev/null"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/mpg123/mpg123/mpg123",
+            "seed_dir": "/compiling/mpg123/mpg123/seeds",
+            "cov_path": "",
+            "args": ["-w", "/dev/null", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/libraw/dcraw_half/dcraw_half",
+            "seed_dir": "/compiling/libraw/dcraw_half/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/liblouis/lou_trace/lou_trace",
+            "seed_dir": "/compiling/liblouis/lou_trace/seeds",
+            "cov_path": "",
+            "args": ["@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/graphics_magick/gm",
+            "seed_dir": "/compiling/graphics_magick/seeds",
+            "cov_path": "",
+            "args": ["compare", "-metric", "mse", "/compiling/graphics_magic/seeds/Add.miff", "@@"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/jasper/jasper/jasper",
+            "seed_dir": "/compiling/jasper/jasper/seeds",
+            "cov_path": "",
+            "args": ["-f", "@@", "-o", "/dev/null", "-T", "mif"],
+            "to_use": true
+        },
+        {
+            "bin_path": "/compiling/binutils/cxxfilt/cxxfilt",
+            "seed_dir": "/compiling/binutils/cxxfilt/seeds",
+            "cov_path": "",
+            "args": ["@@@"],
+            "to_use": true
+        }
+    ],
+
+    "fuzzers": {
+        "Ankou":  {
+            "path":     "/path/to/Ankou",
+            "to_use":   true
+        },
+        "AFL": {
+            "path":     "/path/to/afl-fuzz",
+            "to_use":   true
+        }
+    },
+
+    "exp_dir":  "/fuzzing_exps",
+    "fuzz_n":   3,
+    "max_cores":    44
+
+}
