@@ -135,9 +135,6 @@ func GetUsedCPUs() (usedCPUs []bool) {
 			continue
 		}
 
-		//if debug {
-		//	fmt.Printf("(pid=%d) count=%d\n", pid, count)
-		//}
 		for cpu := range usedCPUs {
 			if set.IsSet(cpu) {
 				usedCPUs[cpu] = true

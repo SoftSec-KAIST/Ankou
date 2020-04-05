@@ -149,6 +149,8 @@ func parseArgs(argv string) (args []string) {
 	return mergedArgs
 }
 
+const affEnv = "NO_AFFINITY"
+
 // Called by 'startFuzzing', the main fuzzing function. This way Arguments can
 // be parsed from CLI, or send by script (e.g. evalfuzz) and then treated here.
 func postParse(argsPt *Arguments) {
@@ -186,7 +188,7 @@ func postParse(argsPt *Arguments) {
 	}
 
 	var oldProcs int
-	if unicore {
+	if unicore && os.Getenv(affEnv) != "1" {
 		oldProcs = runtime.GOMAXPROCS(1)
 		time.Sleep(50 * time.Millisecond)
 		lockProcessCPU()
