@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"log"
 
-	"encoding/binary"
 	"io"
 	"io/ioutil"
 	"math/rand"
@@ -457,11 +456,9 @@ func initForkserver(execTarget string, procAttr *syscall.ProcAttr,
 		log.Printf("Fork server handshake failed: %v\n", err)
 		return nil, nil, pid
 	}
-	status := binary.LittleEndian.Uint32(encodedStatus)
-	sig, crashed := checkStatus(syscall.WaitStatus(status))
 
-	if !timer.Stop() || crashed {
-		log.Printf("Fork server did not start correctly: %v.\n", sig)
+	if !timer.Stop() {
+		log.Println("Fork server did not start correctly.")
 		return nil, nil, pid
 	}
 	return ctlPipeW, stPipeR, pid
